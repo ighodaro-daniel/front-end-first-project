@@ -1,0 +1,40 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit');
+*{
+    font-family: outfit;
+}
+
+body{
+    background-color:hsl(220,15% ,55%);
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    margin: 40px 600px 60px 280px;
+    padding:8px 10px 5px 10px;
+    width:160px;
+    height:250px;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 255, .2);
+}
+
+
+p{
+    font-size: 9px;
+    font-weight: 400px;
+    color:hsl(212,45%,80%);
+    margin-left:9px
+}
+h1{
+    font-size: 12px;
+    margin-left:12px;
+    font: weight 900px;
+word-spacing:2px;
+}
+img{
+    width:160px;
+    height:150px;
+    border-radius:9px;
+}
+span{
+    margin-left:35px
+}
