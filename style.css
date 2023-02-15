@@ -10,31 +10,56 @@ body{
 .card{
     background-color: white;
     border-radius: 10px;
-    margin: 40px 600px 60px 280px;
+    margin: 80px 800px 60px 500px;
     padding:8px 10px 5px 10px;
-    width:160px;
-    height:250px;
+    width:250px;
+    height:400px;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 255, .2);
 }
 
 
 p{
-    font-size: 9px;
+    font-size: 15px;
     font-weight: 400px;
     color:hsl(212,45%,80%);
     margin-left:9px
 }
 h1{
-    font-size: 12px;
-    margin-left:12px;
+    font-size: 18px;
+    margin-left:26px;
     font: weight 900px;
 word-spacing:2px;
 }
 img{
-    width:160px;
-    height:150px;
+    width:250px;
+    height:250px;
     border-radius:9px;
 }
 span{
-    margin-left:35px
+    margin-left:70px;
+    margin-right:70px
+}
+@media(max-width:375px) {
+    .card{
+        background-color: white;
+        border-radius: 10px;
+        margin: 80px 40px 60px 40px;
+        padding:8px 10px 5px 10px;
+        width:250px;
+        height:430px;
+        box-shadow: 5px 10px 10px 5px rgba(0, 0, 255, .2);
+    }
+    h1{
+        font-size: 19px;
+        margin-left:22px;
+        font: weight 900px;
+    word-spacing:2px;
+    }
+    p{
+        font-size: 15px;
+        font-weight: 400px;
+        color:hsl(212,45%,80%);
+        margin-left:9px;
+        margin-top:10px
+    }
 }
